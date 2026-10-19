@@ -1,0 +1,17 @@
+# Platform compatibility is experimental until tested with your signed-in account.
+platforms = ["x", "threads"]
+topics = ["Python programming", "astronomy"]
+max_minutes = 5
+max_pages = 6
+max_post_opens = 4
+min_score = 0.7
+pause_seconds = 3
+# Private browser profiles and logs default to ~/.local/share/feed-tuner.
+# data_dir = "/absolute/private/path"
+
+[model]
+base_url = "http://127.0.0.1:11434/v1"
+name = "your-model"
+# Optional: the name of an environment variable, never the secret itself.
+# api_key_env = "MODEL_API_KEY"
+timeout_seconds = 30
